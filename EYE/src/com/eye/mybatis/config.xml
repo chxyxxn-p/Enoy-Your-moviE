@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.o//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.eye.domain.Admin" alias="Admin"/>
+		<typeAlias type="com.eye.domain.Member" alias="Member"/>
+		<typeAlias type="com.eye.domain.Movie" alias="Movie"/>
+		<typeAlias type="com.eye.domain.MovieGenre" alias="MovieGenre"/>
+		<typeAlias type="com.eye.domain.MovieLimit" alias="MovieLimit"/>
+		<typeAlias type="com.eye.domain.Notice" alias="Notice"/>
+		<typeAlias type="com.eye.domain.Place" alias="Place"/>
+		<typeAlias type="com.eye.domain.Qna" alias="Qna"/>
+		<typeAlias type="com.eye.domain.Review" alias="Review"/>
+		<typeAlias type="com.eye.domain.Theater" alias="Theater"/>
+		<typeAlias type="com.eye.domain.TheaterRoom" alias="TheaterRoom"/>
+		<typeAlias type="com.eye.domain.Ticket" alias="Ticket"/>
+		<typeAlias type="com.eye.domain.Timetable" alias="Timetable"/>
+	</typeAliases>
+	
+	<mappers>
+		<mapper resource="com/eye/mybatis/AdminMapper.xml"/>
+		<mapper resource="com/eye/mybatis/MemberMapper.xml"/>
+		<mapper resource="com/eye/mybatis/MovieMapper.xml"/>
+		<mapper resource="com/eye/mybatis/MovieGenreMapper.xml"/>
+		<mapper resource="com/eye/mybatis/MovieLimitMapper.xml"/>
+		<mapper resource="com/eye/mybatis/NoticeMapper.xml"/>
+		<mapper resource="com/eye/mybatis/PlaceMapper.xml"/>
+		<mapper resource="com/eye/mybatis/QnaMapper.xml"/>
+		<mapper resource="com/eye/mybatis/ReviewMapper.xml"/>
+		<mapper resource="com/eye/mybatis/TheaterMapper.xml"/>
+		<mapper resource="com/eye/mybatis/TheaterRoomMapper.xml"/>
+		<mapper resource="com/eye/mybatis/TicketMapper.xml"/>
+		<mapper resource="com/eye/mybatis/TimetableMapper.xml"/>
+	</mappers>
+</configuration>
